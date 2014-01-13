@@ -1,0 +1,31 @@
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+Then where do I put the jQuery code such as:
+<script>
+
+
+
+function test(){
+alert('check');
+
+$.fancybox(
+'<h2>Hi!</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis mi eu elit tempor facilisis id et neque</p>',
+{
+'autoDimensions' : false,
+'width'         : 350,
+'height'        : 'auto',
+'transitionIn' : 'none',
+'transitionOut' : 'none'
+}
+);
+
+
+
+}
+jQuery(document).ready(function() {
+
+});
+</script>
+
+<a href="#" onclick="test();">check</a>
